@@ -1,16 +1,4 @@
-/**
-|-----------------------------------------|
-  * @INFO
-  * Bot Coded by V H#5111 | https://github.com/VH5111
-  * @INFO
-  * Work for DEVELOPER'S CAFE | https://discord.gg/xXkDRH44Ha
-  * @INFO
-  * Please mention Him / DEVELOPER'S CAFE, when using this Code!
-  * @INFO
-|-----------------------------------------|
-*/
-
-require("http").createServer((req, res) => res.end("BOT MADE BY V H#5111               ")).listen(process.env.PORT || 8080)
+require("http").createServer((req, res) => res.end("BOT MADE BY RedSHkes#0001               ")).listen(process.env.PORT || 8080)
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
@@ -43,14 +31,4 @@ client.on("guildMemberAdd", async member => {
 
 
 client.login(process.env.TOKEN)
-/**
-|-----------------------------------------|
-  * @INFO
-  * Bot Coded by V H#5111 | https://github.com/VH5111
-  * @INFO
-  * Work for DEVELOPER'S CAFE | https://discord.gg/xXkDRH44Ha
-  * @INFO
-  * Please mention Him / DEVELOPER'S CAFE, when using this Code!
-  * @INFO
-|-----------------------------------------|
-*/
+
